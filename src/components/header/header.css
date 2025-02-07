@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.premium {
+  border-color: #f2be75;
+  color: #f2be75;
+}
