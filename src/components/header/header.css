@@ -4,3 +4,12 @@
   border-color: #f2be75;
   color: #f2be75;
 }
+
+.nav-links .nav-link {
+    transition: border-bottom 0.3s none, opacity 0.6s ease;
+  }
+
+.nav-links .nav-link.active{
+    opacity: 1;
+    border-bottom: #d9008d 3px solid;
+}
